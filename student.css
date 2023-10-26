@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Tilt+Neon&display=swap');
+body{
+    background-color: rgb(2,0,36);
+    height: 100%;
+    width:95vw;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 5px;
+}
+.details{
+    background-color: #ffffff9d;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width:100%;
+    margin-left: 20px;
+    padding-left:10px;
+}
+h3{
+    text-align: center;
+    color: #a01919;
+    font-size: 25px;
+    font-family: 'Young Serif', serif;
+}
+p{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-family: 'Tilt Neon', sans-serif;
+    letter-spacing: 1px;
+    line-height: 15px;
+}
+table{
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 4px;
+    color: #ffffff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    border: 1px solid #ffffff;
+}
+td,th{
+    border: 1px solid #ffffff;
+    padding:6px;
+}
+.result{
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    color: #ffffff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    border: 1px solid #2c2b2b;
+    background-color: #626262;
+}
+p.res{
+    margin-left : 20px;
+    color: rgba(121,9,68,1);
+    font-size: 22px;
+    font-family: 'Young Serif', serif;
+    font-weight: bolder;
+    
+}

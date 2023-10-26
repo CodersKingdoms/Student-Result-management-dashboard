@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  type="text/css" rel="stylesheet" href="style.css">
+    <title>Student Management System </title>
+        
+</head>
+<body>
+    <h1>Bright Future School</h1>
+    <div class="head">
+    <img src="research.png" height="80px" width="80px"><h2>Result Management System</h2>
+    </div>
+    <div class="container">
+      
+       <div class="left box">
+           <h3>Student Login</h3>
+           <form action="con2.php" method="post">
+               <table>
+                   <tr>
+                       <td>Roll No</td>
+                       <td><input type="text" name="rollno" required></td>
+                   </tr>
+                   <tr>
+                       <td>Password</td>
+                       <td><input type="password" name="password" required></td>
+                   </tr>
+                   <tr>
+                       <td colspan="2"><button value="Login" name="login" class="button-29" role="button">Login</button></td>
+                   </tr>
+               </table>
+           </form>
+           </div>
+           <div class="right box" >
+            <h3>Admin Login</h3>
+            <form action="admin.php" method="post">
+                <table>
+                    <tr>
+                        <td>Username</td>
+                        <td><input type="text" name="uname" id="uname" required></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="pass" id="pass" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button value="Login" name="login" onclick="func()"class="button-29" role="button">Login</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        
+    </div>
+
+    <script>
+        function func()
+        {
+      var x =   document.getElementById("uname").value;
+      var y =   document.getElementById("pass").value;
+        if(x=="admin" && y=="123456")
+        {
+            window.location.href="admin.php";
+        }
+        else
+        {
+            alert("Invalid Username or Password");
+        }
+    }
+    </script>
+</body>
+</html>

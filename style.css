@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+body{
+    background: url("https://codewithrandom.com/wp-content/uploads/2022/12/2-8-300x179.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94vh;
+    width:95vw;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 5px;
+}
+h2{
+    text-align: left;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 3px;
+}
+.head{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.right{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.left{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.box{
+    background-color: #dcd9d9;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin:30px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color: #000;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 50px;
+    scroll-padding: 10px;
+    padding: 10px;
+}
+.box h3{
+    font-size: 30px;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 3px;
+    color: #000;
+
+}
+
+
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 38px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+input[type=text],[type=password], textarea{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
